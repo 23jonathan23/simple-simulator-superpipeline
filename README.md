@@ -1,1 +1,1 @@
-![alt text](image.png "Simple simulator superpipeline")
+![alt text](/image.PNG "Simple simulator superpipeline")

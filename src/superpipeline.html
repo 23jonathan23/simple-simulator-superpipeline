@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+    <script src="simulator.js"></script>
+    <title>Superpipeline</title>
+</head>
+<body>
+    <div class="panel">
+        <div class="control">
+            <h1 class="title">Superpipeline</h1>
+            <h2 class="sub-title">Pipeline em paralelo</h1>
+            <button class="simulator" onclick="simulator()">Start</button>
+        </div>
+        <table class="superpipeline">
+            <thead>
+                <th class="cicle">Cicle 1</th>
+                <th class="cicle">Cicle 2</th>
+                <th class="cicle">Cicle 3</th>
+                <th class="cicle">Cicle 4</th>
+                <th class="cicle">Cicle 5</th>
+                <th class="cicle">Cicle 6</th>
+                <th class="cicle">Cicle 7</th>
+            </thead>
+            <tbody>
+                <tr class="pipeline-1">
+                    <td class="search">Buscar</td>
+                    <td class="decoding">Decodificação</td>
+                    <td class="execute">Execução</td>
+                    <td class="write">Escrita</td>
+                </tr>
+                <tr class="pipeline-2">
+                    <td class="step"></td>
+                    <td class="search">Buscar</td>
+                    <td class="decoding">Decodificação</td>
+                    <td class="execute">Execução</td>
+                    <td class="write">Escrita</td>
+                </tr>
+                <tr class="pipeline-3">
+                    <td class="step"></td>
+                    <td class="step"></td>
+                    <td class="search">Buscar</td>
+                    <td class="decoding">Decodificação</td>
+                    <td class="execute">Execução</td>
+                    <td class="write">Escrita</td>
+                </tr>
+                <tr class="pipeline-4">
+                    <td class="step"></td>
+                    <td class="step"></td>
+                    <td class="step"></td>
+                    <td class="search">Buscar</td>
+                    <td class="decoding">Decodificação</td>
+                    <td class="execute">Execução</td>
+                    <td class="write">Escrita</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
